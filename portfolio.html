@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <link rel="icon" type="img/jpg" href="logos/me-icon2.jpg">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Esha Kurana — Game Developer portfolio.">
+  <title>Fiona Bravo | Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+  <main>
+    <section class="home-page" id="home" aria-label="About Fiona Bravo">
+      <aside class="profile-panel">
+        <div class="profile-content">
+          <button class="portrait-button" id="profileButton" type="button" aria-haspopup="dialog" aria-controls="profilePreview">
+            <img src="logos/myprofile.jpeg" alt="View a larger photo of Fiona Bravo" class="portrait-img" id="profile-img">
+          </button>
+          <h1>Fiona Lei Bravo</h1>
+          <p class="role">UI / UX Designer</p>
+          <a class="button contact-button" href="mailto:leifiona21@gmail.com">Email me</a>
+          <nav class="social-links" aria-label="Social media links">
+            <a href="https://www.instagram.com/bravobiscuits" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.4" cy="6.7" r="1" class="filled"/></svg>
+            </a>
+            <a href="https://t.me/leifiona_21" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.4 4.6 18.7 19c-.2 1-.8 1.3-1.7.8l-4.7-3.5-2.3 2.2c-.3.3-.5.5-1 .5l.3-4.8 8.7-7.9c.4-.3-.1-.5-.6-.2L6.7 12.8 2 11.3c-1-.3-1-1 .2-1.4L20.6 2.8c.9-.3 1.7.2.8 1.8z" class="filled"/></svg>
+            </a>
+            <a href="https://www.facebook.com/fiona.lei.908" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.6 20v-7h2.4l.4-2.8h-2.8V8.4c0-.8.2-1.4 1.4-1.4h1.5V4.5c-.3 0-1.1-.1-2.1-.1-2.1 0-3.5 1.3-3.5 3.6v2.2H8.5V13h2.4v7h2.7z" class="filled"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/fiona-lei-bravo-922259326/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm2.7 6.2a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM6.4 18h2.7v-7H6.4v7zm4.4 0h2.7v-3.5c0-.9.2-1.8 1.3-1.8 1.1 0 1.1 1 1.1 1.9V18h2.7v-4c0-2.5-.5-4.4-3.4-4.4-1.4 0-2.3.8-2.7 1.5h-.1V11h-2.6v7z" class="filled"/></svg>
+            </a>
+          </nav>
+        </div>
+      </aside>
+
+      <section class="about-panel">
+        <div class="about-content">
+          <h2>About Me</h2>
+          <p>I am a detail-oriented UI/UX Designer with a background in Software Development. I combine user research, intuitive interface design, and technical problem-solving to build engaging, user-friendly digital experiences for web and mobile applications.</p>
+          <div class="action-row">
+            <a class="button" href="https://drive.google.com/file/d/1abVud4iOV69wC2Lk_3MLSohwAz7uolPL/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
+            <a class="button" id="portfolioButton" href="#portfolio">Portfolio</a>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="portfolio-page is-hidden" id="portfolio" aria-label="Portfolio projects" tabindex="-1">
+      <button id="portfolioBackButton" class="portfolio-back" type="button" aria-label="Return to About Me">&larr; About me</button>
+      <div class="experience-intro"><h2>Projects</h2><p>Featured Works</p></div>
+      <div class="experience-gallery" aria-label="Project gallery">
+        <button class="experience-card" type="button" data-project="swims" aria-haspopup="dialog">
+          <span class="project-thumbnail logo-thumbnail swims-thumb" role="img" aria-label="SWIMS project logo"><img class="project-logo" src="logos/swimslogo.svg" alt="SWIMS logo"></span>
+          <strong>SWIMS: Zenith PH</strong>
+        </button>
+        <button class="experience-card" type="button" data-project="wheels" aria-haspopup="dialog">
+          <span class="project-thumbnail logo-thumbnail wheels-thumb" role="img" aria-label="3G Wheels project logo"><img class="project-logo" src="logos/3gwheelslogo.png" alt="3G Wheels logo"></span>
+          <strong>3G WHEELS: Vehicle Rental Management System</strong>
+        </button>
+        <button class="experience-card" type="button" data-project="pup" aria-haspopup="dialog">
+          <span class="project-thumbnail logo-thumbnail pup-thumb" role="img" aria-label="PUP ODRS project logo"><img class="project-logo" src="logos/puplogo.png" alt="PUP logo"></span>
+          <strong>PUP Online Document Request System (ODRS) &mdash; Redesign Conceptualization</strong>
+        </button>
+      </div>
+      <div class="legacy-projects" aria-hidden="true">
+      <header class="portfolio-header">
+        <button id="backButton" class="back-link" type="button" aria-label="Return to About Me">← About Me</button>
+        <h2>Selected Work</h2>
+      </header>
+
+      <article class="project project-swims">
+        <div class="project-visual swims-visual" aria-label="Dark inventory dashboard mockup">
+          <div class="dashboard-sidebar"><strong>⌁</strong><b>SWIMS</b><small>Dashboard</small><small>Inventory Operations</small><small>Inventory Management</small><small>RTS Management</small></div>
+          <div class="dashboard-body"><div class="dashboard-top">INVENTORY <span>root&nbsp;&nbsp; ● &nbsp;⚙</span></div><div class="dash-grid"><div class="chart-card"><b>Stock Count</b><i></i><em>Low Stock</em></div><div class="stock-card"><b>Stock Pull (Per Day)</b></div><div class="notification-card"><b>Notifications</b><span>⚠ root.stock_in 1000 boxes of sulfur(1)</span><span>⚠ root.return_to_silos 0 boxes of glyphosate</span><span>⚠ root.stock_out 20 boxes of sulfur</span></div></div></div>
+        </div>
+        <div class="project-copy">
+          <ul>
+            <li>My Role: UI Designer &amp; Frontend Developer</li>
+            <li>The Constraint: Built exclusively with PySide (Python).</li>
+            <li>The Core UX Goal: Designed a high-contrast Dark Mode dashboard tailored to reduce eye strain for warehouse operators during long shifts.</li>
+            <li>Key Feature: Organized complex, multi-tiered data (Logs, Graphs, and Alerts) into a clean grid system for instant scannability.</li>
+          </ul>
+        </div>
+        <footer class="project-caption"><h3>SWIMS: Zenith PH</h3><p>Information Management Course Project</p></footer>
+      </article>
+
+      <article class="project project-pup">
+        <div class="project-visual pup-visual" aria-label="University online document request system mockup">
+          <div class="pup-top"><b>✹</b><span>Online Document Request System<small>Fast, secure, and convenient access to official academic documents</small></span><i>PUP</i></div>
+          <div class="pup-nav">Registrars</div><div class="pup-cards"><span>Open University</span><span>University Registrar</span><span>College of Law</span></div><div class="pup-bottom">Upcoming Registrars</div>
+        </div>
+        <div class="project-copy">
+          <ul>
+            <li>My Role: UI/UX Designer</li>
+            <li>The Deliverable: Developed a fully interactive High-Fidelity Prototype in Figma to map out the complete student administrative journey.</li>
+            <li>The Core UX Goal: Modernized an outdated legacy system to eliminate student navigation friction and streamline document application flows.</li>
+            <li>Key Feature: Redesigned the primary department selection into a modular card system to improve visual scannability and reduce user confusion.</li>
+            <li>Brand Identity: Applied a refined, accessible color palette honoring the school's signature maroon and gold to reinforce institutional trust.</li>
+          </ul>
+          <div class="before"><span>Before:</span><div class="before-site"><b>✹</b><small>Online Document Request System</small><i></i></div></div>
+        </div>
+        <footer class="project-caption"><h3>PUP Online Document Request<br>System (ODRS) — Redesign<br>Conceptualization</h3></footer>
+      </article>
+      </div>
+    </section>
+  </main>
+  <div class="profile-modal" id="profilePreview" role="dialog" aria-modal="true" aria-label="Fiona Bravo profile photo" hidden>
+    <button class="profile-modal-close" id="profilePreviewClose" type="button" aria-label="Close enlarged profile photo">&times;</button>
+    <img src="logos/myprofile.jpeg" alt="Fiona Bravo" class="profile-modal-image">
+  </div>
+  <div class="project-modal" id="projectPreview" role="dialog" aria-modal="true" aria-labelledby="projectPreviewTitle" hidden>
+    <button class="project-modal-close" id="projectPreviewClose" type="button" aria-label="Close project details">&times;</button>
+    <div class="project-modal-content">
+      <div class="project-media" id="projectMedia" aria-label="Project images"></div>
+      <div class="project-details">
+        <p class="project-kicker">PROJECT DETAILS</p>
+        <h2 id="projectPreviewTitle"></h2>
+        <p id="projectPreviewType" class="project-type"></p>
+        <ul id="projectPreviewDescription"></ul>
+      </div>
+    </div>
+  </div>
+  <div class="project-image-modal" id="projectImagePreview" role="dialog" aria-modal="true" aria-label="Enlarged project image" hidden>
+    <button class="project-image-modal-close" id="projectImagePreviewClose" type="button" aria-label="Close enlarged project image">&times;</button>
+    <img id="projectImagePreviewImage" src="" alt="">
+  </div>
+  <script src="portfolio.js"></script>
+</body>
+</html>
